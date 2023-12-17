@@ -1,0 +1,46 @@
+/* bar-chart.component.scss */
+canvas {
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* bar-chart.component.css */
+
+/* Style the canvas element */
+.barChart {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ddd; /* Add border for a light box effect */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for a light shadow effect */
+  }
+  /* your-component.component.css */
+  .box {
+    display: flex;
+    flex-direction: row; /* Display the pairs in a row */
+    justify-content: space-around
+  }
+  
+  .pair {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Adjust as needed for spacing between pairs */
+  }
+  
+  .label {
+    font-size: 16px;
+    display: block;
+  }
+  
+  .value {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Example color */
+    margin-top: 5px;
+  }

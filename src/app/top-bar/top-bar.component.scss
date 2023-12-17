@@ -1,0 +1,46 @@
+// top-bar.component.scss
+
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; // Adjusted to display icons from left to right
+    padding: 10px;
+    background-color: white;
+    color: #fff;
+    border-radius: 10px;
+    p {
+      margin: 0;
+      font-size: 1.5rem;
+      margin-right: auto;
+      color: #050505;
+    }
+  
+    .search {
+      display: flex;
+      align-items: center;
+      background-color:rgb(220 238 213 / 67%);
+      border-radius: 4px;
+      padding: 5px;
+      margin-left: 10px; // Added margin to separate search box from "Overview"
+  
+      i {
+        margin-right: 5px;
+      }
+  
+      input {
+        border: none;
+        background: none;
+        color: #fff;
+      }
+    }
+  
+    i {
+      color: #050505;
+      font-size: 1.8rem;
+      cursor: pointer;
+      margin-left: 10px; // Adjusted margin to space out icons
+    }
+  }
+  
+  
